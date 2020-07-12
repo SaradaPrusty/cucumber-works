@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1061" started-at="2020-06-25T16:53:07Z" finished-at="2020-06-25T16:53:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1061" started-at="2020-06-25T16:53:07Z" finished-at="2020-06-25T16:53:08Z">
+      <class name="com.training.testRunner.TestRunnerTestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="setUpClass" is-config="true" duration-ms="501" started-at="2020-06-25T22:23:07Z" finished-at="2020-06-25T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="feature" duration-ms="163" started-at="2020-06-25T22:23:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-25T22:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is a smple check for credit score]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="feature" duration-ms="49" started-at="2020-06-25T22:23:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-25T22:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[to validate login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="feature" duration-ms="139" started-at="2020-06-25T22:23:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-25T22:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[to shop for the product]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="feature" duration-ms="20" started-at="2020-06-25T22:23:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-06-25T22:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validating the user call details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.training.testRunner.TestRunnerTestNG@1b083826]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2020-06-25T22:23:08Z" finished-at="2020-06-25T22:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.training.testRunner.TestRunnerTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
